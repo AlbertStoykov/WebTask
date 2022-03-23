@@ -11,10 +11,11 @@
     src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
     integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
     crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <script src="script.js"></script>
+    
     <h3 id="nav">
         <ul>
             <li><a href="#home">Home</a></li>
@@ -22,7 +23,17 @@
             <li><a href="#About">About</a></li>
         </ul>
     </h3>
-    <h1>Background Color Change</h1>
+    <h1 id="h1">Background Color Change</h1>
+
+    <script>
+        const btn = document.getElementById("h1");
+        const cursor = document.ge
+        btn.addEventListener("click", function onClick(event){
+            document.body.style.backgroundColor = "red";
+            
+        })
+
+    </script>
     <h2>Word Replace</h2>
     <div class="container-one">
         <h1>About Us</h1>
