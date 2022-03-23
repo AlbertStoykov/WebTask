@@ -27,10 +27,12 @@
 
     <script>
         const btn = document.getElementById("h1");
-        const cursor = document.ge
+        const cursor = document.getElementById("h1");
         btn.addEventListener("click", function onClick(event){
             document.body.style.backgroundColor = "red";
-            
+        })
+        cursor.addEventListener("mouseleave", function leave(event){
+            document.body.style.backgroundColor = "rgb(209, 209, 209)";
         })
 
     </script>
