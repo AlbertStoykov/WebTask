@@ -2,7 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(209, 209, 209);
 }
 
 .container-one {
@@ -15,15 +15,12 @@ body {
   padding: 20px;
 }
 
-
 ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    
-  }
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
 
-  li {
-    display: inline;
-  }
-
+li {
+  display: inline;
+}
